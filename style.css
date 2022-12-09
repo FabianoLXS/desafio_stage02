@@ -1,16 +1,16 @@
 body{
   text-align: center;
- 
-}
 
-#wave img{
-  position: relative;
-  top: 391px;
 }
 
 #img1 img{
-  margin: 64px auto 0 
-}
+  margin-top: 64px; 
+  max-width:350px;
+  max-height:238px;
+  width: auto;
+  height: auto;
+
+  }
 
 h1{
   margin: 0 0 0 16px;
@@ -27,7 +27,7 @@ h1 span{
 }
 
 p{
-  width: 540px;
+  width: 580px;
   line-height: 22px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -40,9 +40,15 @@ p span{
   color: #3F3D56
 }
 
+
+
 a + a{
   margin-left: 42px;
 }
+
+a{
+   color: #3F3D56
+ }
 
 #line{
   width: 560px;
@@ -53,7 +59,13 @@ a + a{
   border: 1px solid #ECEFF2
 }
 
+#wave img{
+  position: relative;
+  top: 519px;
+}
+
 #footer{
+  margin-top: 70px;
   font-weight: 700;
   font-family: 'Open Sans', sans-serif;
   color: #3F3D56
